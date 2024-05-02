@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mylogin page</title>
+    <script src="http://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- global container -->
+    <div class="flex justify-center items-center min-h-screen bg-rose-200">
+        <!-- card container -->
+        <div class="flex flex-col relative shadow-2xl rounded-lg m-6 bg-white space-y-10 md:space-y-0 md:flex-row md:m-0">
+
+        <!-- left container -->
+           <div>
+               <img src="https://i.pinimg.com/736x/39/11/6c/39116c247669762f4ce72be4ce2b862e.jpg" class="w-[430px] h-[640px] rounded-l-xl hidden md:block" alt="">
+           </div>
+
+            <!-- right container -->
+           <div class="p-6 md:p-20">
+            <!-- top content -->
+            <h2 class="font-bold text-4xl mb-6">Login</h2>
+            <p class="text-gray-600 font-light mb-12 max-w-sm">Log in to your account to upload or download pictures, videos or music</p>
+
+            <!-- input container -->
+
+            <input type="text" class="px-4 py-4 rounded-md border border-gray-400 w-full" placeholder="Enter your email address">
+
+            <!-- middle content -->
+            <div class="flex flex-col space-y-6 justify-between items-center md:flex-row md:space-y-6">
+                <p class="font-light text-cyan-700 mt-4"> <a href="#"> forgot Password</a></p>
+
+                <button class="flex w-full items-center justify-center text-white w-full border-cyan-600 rounded-lg p-6 bg-cyan-700 md:flex-row md:w-auto px-9 space-x-4 hover:bg-opacity-90 transition hover:-translate-y-0.5">
+                        <span>Next</span>
+                </button>
+            </div>
+            <div class="border-b border-gray-400 p-6 w-full"></div>
+
+            <!-- lower container -->
+
+            <p class="text-center font-thin text-sm text-gray-400 mt-6">or log in with</p>
+
+           <div class="flex flex-col space-x-0 space-y-6 md:flex-row md:space-x-4 md:space-y-0">
+
+            <!-- fb button -->
+            <button class="flex items-center justify-center py-2 space-x-6 mt-4 border border-gray-300 rounded-lg hover:shadow-lg md:flex-row md:space-y-0 md:space-x-4 md:px-6 hover:bg-opacity-30 transition hover:-translate-y-0.5 " >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFqO2chLxpQYQ4czCKvOeFeCH8e3J_7u59Ej-xMql4sQ&s" alt="" class="w-9">
+            <span>Facebook</span>
+            </button>
+
+            <!-- ggle button -->
+            <button class="flex items-center justify-center py-2 space-x-6 mt-4 border border-gray-300 rounded-lg hover:shadow-lg md:flex-row md:space-y-0 md:space-x-4 md:px-6 hover:bg-opacity-30 transition hover:-translate-y-0.5 " >
+                <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="" class="w-9">
+            <span>Google</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- cancel button -->
+    <div class="group flex absolute -top-6 left-4 items-center justify-center rounded-full border border-b-gray-300 hover:-translate-y-0.5 translate hover:bg-opacity-30 duration-150 md:top-4">
+        <img src="https://t3.ftcdn.net/jpg/03/64/30/82/360_F_364308273_cV9OrZrqUpZ8En9rC8KxBqaxkVg95ZTY.jpg" alt="" class="w-6 h-6">
+    </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
